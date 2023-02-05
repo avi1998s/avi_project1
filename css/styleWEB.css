@@ -1,11 +1,17 @@
+#tr{
+    width: 100px;
+}
 body{
-    background-color: aqua;
+    background-color: rgb(83, 237, 237);
 }
 p{
     font-size: 20px;
-    color: #010600;
+    color: rgb(14, 98, 98);
+    vertical-align: middle;
+    text-align: center;
 }
-a{
-    color: rgb(226, 76, 43);
-    font-size: 20px;
+img{
+    width: 45px ; height: 35px;
+    vertical-align: middle;
+    margin-left: 8px;
 }
