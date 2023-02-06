@@ -19,3 +19,4 @@ for (let i=1;i<11;i++){
     fd += '\n'
 }
 console.log(fd);
+

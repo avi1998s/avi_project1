@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin: 0 10px;
+    }
+    
+    a {
+      text-decoration: none;
+      color: navy;
+    }
+    
+    .menu-icon {
+      display: none;
+    }
+    
+    @media (max-width: 700px) {
+      .menu-icon {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+      }
+      
+      ul {
+        display: none;
+      }
+      
+      .show {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">My Site</div>
+    <div class="menu-icon" onclick="toggleMenu()">&#
