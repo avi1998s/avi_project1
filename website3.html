@@ -1,61 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-    }
-    
-    .logo {
-      font-size: 22px;
-      font-weight: bold;
-    }
-    
-    ul {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    li {
-      margin: 0 10px;
-    }
-    
-    a {
-      text-decoration: none;
-      color: navy;
-    }
-    
-    .menu-icon {
-      display: none;
-    }
-    
-    @media (max-width: 700px) {
-      .menu-icon {
-        display: block;
-        font-size: 28px;
-        cursor: pointer;
-      }
-      
-      ul {
-        display: none;
-      }
-      
-      .show {
-        display: flex;
-      }
-    }
-  </style>
+    <style>
+        #calculator{
+            padding: 25px;
+            margin: 30px;
+        }
+    </style>
+    <title>web3</title>
 </head>
 <body>
-  <nav>
-    <div class="logo">My Site</div>
-    <div class="menu-icon" onclick="toggleMenu()">&#
+    <div>
+        <div id="calculator">
+            <input type="text" id="display">
+            <br><br>
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            <button id="plus">+</button>
+            <br>
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button id="minus">-</button>
+            <br>
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            <button id="times">*</button>
+            <br>
+            <button id="clear">C</button>
+            <button id="zero">0</button>
+            <button id="equals">=</button>
+            <button id="divide">/</button>
+          </div>
+          
+        
+    </div>
+    <script src="jsf/website3.js"></script>
+</body>
+</html>
