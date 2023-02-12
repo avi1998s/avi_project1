@@ -2,9 +2,14 @@
 <html lang="en">
 <head>
     <style>
+        #select{
+            width: 440px;
+        }
+        #pho{
+            width: 340px;
+        }
         #div1{
             align-items: center;
-            size: 10px;
         }
         div{
             text-align: center;
@@ -20,18 +25,20 @@
             text-align: center;
             font-size: 35px;
         } 
+        
     </style>
 </head>
 
 <body>
     <div>
         <u><h2>טופס הרשמה אבא</h2></u><hr>
-    <form action="/dfsf.php"><label>שם פרטי</label> <br>
-        <input type="text" ><br>
+    <form action="/dfsf.php">
+        <label>שם פרטי</label> <br>
+        <input type="text" required><br>
         <label>שם משפחה</label><br>
-        <input type="text"><br>
+        <input type="text" required><br>
         <label>בחר חלק מעודף ביום</label><br>
-        <select name="part day" id="">
+        <select name="part day" id="select">
             <option value=""></option>
             <option value="לפנות בוקר">לפנות בוקר</option>
             <option value="בוקר">בוקר</option>
@@ -41,9 +48,9 @@
             <option value="לילה">לילה</option>
         </select><br>
         <label>סיסמא</label><br>
-        <input type="password"><br>
+        <input type="password" required><br>
         <label>אימות סיסמא</label><br>
-        <input type="password"><br>
+        <input type="password" onpaste="return false;" required><br>
         <label>מספר פלאפון</label><br>
         <div id="div1"><select name="phone">
             <option value="0"></option>
@@ -51,13 +58,13 @@
             <option value="055">055</option>
             <option value="050">050</option>
             <option value="052">052</option>
-        </select> <input type="tel"></div>
+        </select> <input id="pho" type="tel" ></div>
         <label>אימייל</label><br>
         <input type="email"><br>
         <label>אימות אימייל</label><br>
-        <input type="email"><br>
+        <input type="email" onpaste="return false;"><br>
         <label>תאריך לידה</label><br>
-        <input type="date"><br><br>
+        <input type="date" ><br><br>
         <input type="submit"><br>
     </form>
 </div>
