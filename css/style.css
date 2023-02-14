@@ -21,4 +21,8 @@ a{
     height: 50px;
     background-color: rgb(56, 119, 206);
     text-align:right;
+    position: sticky;
+    top: 10px;
+    bottom:0px;
+
 }
