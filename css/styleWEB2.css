@@ -1,3 +1,14 @@
-body{
-    background-color: blueviolet;
-}
+:root{
+    --color: #155dda;
+  }
+  
+  body{
+    background-color: var(--color);
+  }
+  
+  button{
+    width: 100px;
+    height: 100px;
+    margin-left: 800px;
+  }
+  
