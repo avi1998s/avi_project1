@@ -2,6 +2,7 @@
     --shamby:#56a9cf;
 }
 body{
+    direction: rtl;
     background-color: var(--shamby);
     color: rgb(255, 253, 253);
 }
@@ -27,7 +28,7 @@ li{
 
 }
 #panel{
-    padding: 41px 399px;
+    padding: 41px 325px;
     background-color: rgba(26, 41, 62, 0.94); 
-    float: right ;
+    float: right;
 }
