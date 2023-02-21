@@ -1,16 +1,13 @@
-:root{
-    --shamby:#56a9cf;
-}
 body{
     direction: rtl;
-    background-color: var(--shamby);
-    color: rgb(255, 253, 253);
+    color: rgb(255, 253, 253); 
+    margin: 0px;
 }
 a{
     color: rgb(224, 224, 233);
     font-size: 20px;
     text-align: center;
-    text-decoration:double;
+    text-decoration:none;
     padding: 30px 30px;
     display: inline-block;
 }
@@ -20,6 +17,7 @@ a:hover{
 ul{
     list-style: none;
     padding: 0px;
+    margin: 0px;
 
 }
 li{
@@ -28,7 +26,11 @@ li{
 
 }
 #panel{
-    padding: 41px 325px;
+    padding: 41px 336px;
     background-color: rgba(26, 41, 62, 0.94); 
-    float: right;
+    display: inline-block;
+}
+p{
+    font-size: 1.5em;
+    color: red;
 }
