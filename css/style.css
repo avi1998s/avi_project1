@@ -30,7 +30,12 @@ li{
     background-color: rgba(26, 41, 62, 0.94); 
     display: inline-block;
 }
-p{
+#p1{
     font-size: 1.5em;
-    color: red;
+    color: rgb(243, 241, 241);
+    background-color: black;
+}
+#h1{
+    color: rgb(243, 241, 241);
+    background-color: black;   
 }
