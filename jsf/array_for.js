@@ -36,5 +36,9 @@ console.log( "Summary of the array :" );
 console.log("all the numbers in array is:  " + cunterI );
 console.log("all the sum results from the array is:  " + allResults );
 console.log("sum all results from the array is:  " + sumAll );
+// שימוש בלולאת פור על מערך בעזרת for each
+let array = [1, 2, 3, 4, 5, 6,7,8,9,10];
+console.log(array.forEach((item,i,j)=>console.log(item+"---"+i+"---"+j)));
+// איטם מיצג איבר במערך האי מיצג מיקום של איבר במערך והג'י מיצג את המערך בשלמותו
 
 
